@@ -13,10 +13,16 @@ public class PyramidServiceResponse {
 		this.isPyramidWord = isPyramidWord;
 	}
 	
+	/**
+	 * @return Request ID
+	 */
 	public String getRequestId() {
 		return requestId;
 	}
 	
+	/**
+	 * @return Whether the word in original request is pyramid word or not
+	 */
 	public Boolean getIsPyramidWord() {
 		return isPyramidWord;
 	}
