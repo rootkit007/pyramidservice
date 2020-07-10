@@ -7,7 +7,7 @@ import net.zeltins.pyramid.PyramidLogic;
 @RestController
 public class PyramidServiceController {
 
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET,path = "/ispyramidword")
 	public PyramidServiceResponse IsPyramidWordService(@RequestParam String requestId,@RequestParam String word) {
 		
 		return new PyramidServiceResponse(requestId,PyramidLogic.IsPyramidWord(word));
