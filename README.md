@@ -1,1 +1,1 @@
-# pyramidservice
+See pyradmidservice/README.md 
